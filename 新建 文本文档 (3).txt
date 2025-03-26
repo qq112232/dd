@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRI 生态启动 - 财富裂变</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #111;
+            color: #fff;
+            text-align: center;
+        }
+        .banner {
+            background: linear-gradient(to right, #ff9900, #ff3300);
+            padding: 50px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
+            background: #ff6600;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #cc5500;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">🔥 AGRI 生态爆炸启动！100万枚通证 × 零滑点 × 团队裂变红利 🔥</div>
+    
+    <div class="section">
+        <h2>🚀 百万人级通证+零摩擦交易生态</h2>
+        <p>✅ 总量一亿枚，通缩模型赋能，生态应用同步上线，交易无滑点损耗，财富效率拉满！</p>
+        <p>✅ DApp九宫格财富游戏：链上互动+团队裂变，小投入撬动万倍收益！</p>
+    </div>
+    
+    <div class="section">
+        <h2>🎮 九宫格暴富规则——输赢皆赚，团队躺赢！</h2>
+        <p>🔹 随机开启神秘格子，最高狂揽百倍收益！</p>
+        <p>🔹 猜中秒到账，透明生态，奖励秒到钱包！</p>
+        <p>🔹 空奖反哺团队，90%资金回流矿池！</p>
+    </div>
+    
+    <div class="section">
+        <h2>💎 四维财富引擎，闭环生态崛起</h2>
+        <p>❶ 天价爆率：运气即资本，单局逆袭！</p>
+        <p>❷ 团队裂变：空奖抽成，拉新躺赚！</p>
+        <p>❸ 矿池复利：奖池滚动增长，财富持续翻倍！</p>
+        <p>❹ 算力保底：失败即矿机，细水长流稳收益！</p>
+    </div>
+    
+    <div class="section">
+        <h2>⏰ 生态DApp与交易同步引爆！</h2>
+        <a href="#" class="btn">立即绑定钱包</a>
+        <a href="#" class="btn">进入DApp</a>
+    </div>
+</body>
+</html>
+
+<!-- GitHub Actions 自动部署 -->
+<!-- 在 .github/workflows/deploy.yml -->
+<!-- 
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
+-->
